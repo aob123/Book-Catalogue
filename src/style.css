@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.nav > .container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 50vw;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  padding-top: 5px;
+}
+
+.book {
+  cursor: pointer;
+}
+
+.book-page {
+  border: 1px solid rgb(146, 146, 146);
+  box-shadow: 2px 2px 10px rgb(185, 185, 185);
+  padding: 15px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.book-page h1 {
+  text-align: center;
+  margin: 10px 0 25px 0;
+}
+
+.book-details {
+  font-style: italic;
+  font-weight: 200;
+}
+
+.book-details span {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.book-details p {
+  margin: 25px 0 25px 0;
+}
+
+.results-loading {
+  margin-top: 20px;
+  min-height: 50px;
+  min-width: 200px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

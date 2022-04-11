@@ -1,3 +1,7 @@
-# react-kfxi5z
+# Book Catalogue
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-kfxi5z)
+A book catalouge based on the open-library api. 
+
+Search for books by title, author or subject and then click on a match in the list to view more details.
+
+Check it out on https://react-kfxi5z.stackblitz.io/
